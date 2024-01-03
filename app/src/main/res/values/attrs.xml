@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomGaugeView">
+        <attr name="marginBottom" format="float" />
+        <attr name="startX" format="float" />
+        <attr name="gapInBetweenTwoLines" format="float" />
+        <attr name="alertSegmentHeight" format="float" />
+        <attr name="gaugeViewWidth" format="float" />
+        <attr name="viewPadding" format="float" />
+        <attr name="progressGradientOpacity" format="float" />
+        <attr name="gaugeViewPadding" format="float" />
+        <attr name="slantProgressColor" format="color" />
+        <attr name="slantGaugeColor" format="color" />
+        <attr name="alertSegmentColor" format="color" />
+        <attr name="horizontalProgressColors" format="color" />
+        <attr name="gaugeSegmentColors" format="color"/>
+        <attr name="isPositive" format="boolean"/>
+        <attr name="alertType" format="enum">
+            <enum name="NONE" value="0" />
+            <enum name="TOP" value="1" />
+            <enum name="BOTTOM" value="2" />
+        </attr>
+        <attr name="orientationType" format="enum">
+            <enum name="VERTICAL" value="0" />
+            <enum name="HORIZONTAL" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>
